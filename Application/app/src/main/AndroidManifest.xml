@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.mansourappdevelopment.androidapp.kidsafe">
+    package="cm.nexuscare.parental">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
@@ -10,7 +10,8 @@
     <uses-permission
         android:name="android.permission.PACKAGE_USAGE_STATS"
         tools:ignore="ProtectedPermissions" />
-    <uses-permission android:name="android.permission.GET_TASKS" /> <!-- FOR FOREGROUND APPS BEFORE LOLLIPOP -->
+    <uses-permission android:name="android.permission.GET_TASKS" /> <!-- FOR FOREGROUND APPS BEFORE
+    LOLLIPOP -->
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
     <uses-permission
         android:name="android.permission.WRITE_SETTINGS"
@@ -34,7 +35,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar">
-        <activity android:name=".activities.AboutActivity"/>
+        <activity android:name=".activities.AboutActivity" />
         <activity android:name=".activities.SettingsActivity" />
         <activity android:name=".activities.AccountVerificationActivity" />
         <activity android:name=".activities.ModeSelectionActivity" />
@@ -47,8 +48,9 @@
         <activity android:name=".activities.ParentSignedInActivity" />
         <activity
             android:name=".activities.SignUpActivity"
+            android:exported="true"
             android:parentActivityName=".activities.LoginActivity" />
-        <activity android:name=".activities.LoginActivity">
+        <activity android:name=".activities.LoginActivity" android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -62,7 +64,7 @@
         <service android:name=".services.MainForegroundService" />
         <service android:name=".services.GeoFencingForegroundService" />
 
-        <receiver android:name=".broadcasts.BootCompleteReceiver">
+        <receiver android:name=".broadcasts.BootCompleteReceiver" android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
 
@@ -71,6 +73,7 @@
         </receiver>
         <receiver
             android:name=".broadcasts.AdminReceiver"
+            android:exported="true"
             android:description="@string/device_admin_description"
             android:label="@string/device_admin"
             android:permission="android.permission.BIND_DEVICE_ADMIN">
@@ -83,5 +86,4 @@
             </intent-filter>
         </receiver>
     </application>
-
 </manifest>

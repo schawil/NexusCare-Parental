@@ -1,42 +1,42 @@
 {
   "project_info": {
-    "project_number": "487946012349",
-    "firebase_url": "https://kidsafe-3a667.firebaseio.com",
-    "project_id": "kidsafe-3a667",
-    "storage_bucket": "kidsafe-3a667.appspot.com"
+    "project_number": "876361518477",
+    "firebase_url": "https://nexuscare-f9874-default-rtdb.firebaseio.com",
+    "project_id": "nexuscare-f9874",
+    "storage_bucket": "nexuscare-f9874.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:487946012349:android:d11fafe4263b5800",
+        "mobilesdk_app_id": "1:876361518477:android:a84b6ad175d57a4b8241c4",
         "android_client_info": {
-          "package_name": "com.mansourappdevelopment.androidapp.kidsafe"
+          "package_name": "cm.nexuscare.parental"
         }
       },
       "oauth_client": [
         {
-          "client_id": "487946012349-jl6qltcr9jv44rmdrlh1l0dhfqkjvfgj.apps.googleusercontent.com",
+          "client_id": "876361518477-eic5b6p1avvatej14m1c5d23ofljnprd.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.mansourappdevelopment.androidapp.kidsafe",
-            "certificate_hash": "54852af4dabff4d6c92c98c3c866c6d5d0ce3724"
+            "package_name": "cm.nexuscare.parental",
+            "certificate_hash": "1ea37b54aa279aabd6b5f5fe06f59c16d2d7e8e4"
           }
         },
         {
-          "client_id": "487946012349-brimdf043dkkn6de7uspdv91mo7rc9s0.apps.googleusercontent.com",
+          "client_id": "876361518477-0l22vf318gamq4ms5th2klg9jatd08ri.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyD8ZY-iWZat49hZx753bGivVVxzmHrwc90"
+          "current_key": "AIzaSyDvVub3fdocRJ1YgaZxukpwcRMZFEkJiMg"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "487946012349-brimdf043dkkn6de7uspdv91mo7rc9s0.apps.googleusercontent.com",
+              "client_id": "876361518477-0l22vf318gamq4ms5th2klg9jatd08ri.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

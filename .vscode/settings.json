@@ -1,0 +1,11 @@
+{
+  "java.configuration.updateBuildConfiguration": "automatic",
+  "java.home": "/usr/lib/jvm/java-17-openjdk-amd64",
+  "android.sdk.path": "/home/schawil/Android/Sdk",
+  "files.associations": {
+    "*.gradle": "groovy",
+    "*.kts": "kotlin"
+  },
+  "editor.formatOnSave": true,
+  "editor.tabSize": 4
+}

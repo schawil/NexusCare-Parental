@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    NexusCare Logo — Vector Drawable
+    Design : bouclier hexagonal (protection) + nœuds réseau (nexus)
+    Palette : Indigo #1A237E | Teal #00BFA5 | Blanc #FFFFFF
+    Viewport : 120x120 — fonctionne à toute résolution sans perte
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+
+    <!-- ── Bouclier hexagonal (protection / care) ── -->
+    <!-- Outer hex : pointe haute, r=54, centre (60,60) -->
+    <path
+        android:fillColor="#1A237E"
+        android:pathData="M60,6 L105,33 L105,87 L60,114 L15,87 L15,33 Z" />
+
+    <!-- Inner hex : r=44, légère élévation visuelle -->
+    <path
+        android:fillColor="#1E2D8F"
+        android:pathData="M60,18 L96,39 L96,81 L60,102 L24,81 L24,39 Z" />
+
+    <!-- ── Lignes de connexion (nexus) ── -->
+    <!-- Triangle reliant les 3 nœuds : (60,38) (40,72) (80,72) -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#4DD0C4"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M60,38 L40,72 M60,38 L80,72 M40,72 L80,72" />
+
+    <!-- ── Nœud supérieur ── centre (60,38) r=7 -->
+    <path
+        android:fillColor="#00BFA5"
+        android:pathData="M53,38 A7,7,0,1,0,67,38 A7,7,0,1,0,53,38" />
+
+    <!-- ── Nœud bas-gauche ── centre (40,72) r=7 -->
+    <path
+        android:fillColor="#00BFA5"
+        android:pathData="M33,72 A7,7,0,1,0,47,72 A7,7,0,1,0,33,72" />
+
+    <!-- ── Nœud bas-droit ── centre (80,72) r=7 -->
+    <path
+        android:fillColor="#00BFA5"
+        android:pathData="M73,72 A7,7,0,1,0,87,72 A7,7,0,1,0,73,72" />
+
+    <!-- ── Point central (nexus focal) ── centre (60,56) r=5 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M55,56 A5,5,0,1,0,65,56 A5,5,0,1,0,55,56" />
+
+    <!-- ── Petits nœuds internes sur les lignes (profondeur visuelle) ── -->
+    <!-- Milieu haut-gauche (50,55) r=2.5 -->
+    <path
+        android:fillColor="#80E0D7"
+        android:pathData="M47.5,55 A2.5,2.5,0,1,0,52.5,55 A2.5,2.5,0,1,0,47.5,55" />
+    <!-- Milieu haut-droit (70,55) r=2.5 -->
+    <path
+        android:fillColor="#80E0D7"
+        android:pathData="M67.5,55 A2.5,2.5,0,1,0,72.5,55 A2.5,2.5,0,1,0,67.5,55" />
+    <!-- Milieu bas (60,72) r=2.5 -->
+    <path
+        android:fillColor="#80E0D7"
+        android:pathData="M57.5,72 A2.5,2.5,0,1,0,62.5,72 A2.5,2.5,0,1,0,57.5,72" />
+
+</vector>
