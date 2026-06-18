@@ -1,4 +1,4 @@
-# Welcome to KidSafe!
+# Welcome to Nexuscare!
 <img src="https://raw.githubusercontent.com/xMansour/KidSafe/master/graphics/icons/ic_launcher_round.png" alt="Sublime's custom image"/>
 
 [![xMansour - kidSafe](https://img.shields.io/static/v1?label=xMansour&message=kidSafe&color=blue&logo=github)](https://github.com/xMansour/kidSafe "Go to GitHub repo") [![stars - kidSafe](https://img.shields.io/github/stars/xMansour/kidSafe?style=social)](https://github.com/xMansour/kidSafe) [![forks - kidSafe](https://img.shields.io/github/forks/xMansour/kidSafe?style=social)](https://github.com/xMansour/kidSafe)
@@ -19,13 +19,13 @@
 
 ## About The Project<a id='about'></a>
 
-**KidSafe** is an android parental control app which when installed on the child’s device and linked with his parent’s, will provide the parents remote access to that device, giving them the ability to control, block or manage certain features that can ensure your child’s safety and digital well being.
+**Nexuscare** is an android parental control app which when installed on the child’s device and linked with his parent’s, will provide the parents remote access to that device, giving them the ability to control, block or manage certain features that can ensure your child’s safety and digital well being.
 
- **KidSafe** is a free and open source and is made for parents whose children are spending a lot of time on their smart phones or tablets. KidSafe allows you to control your children screen time or activity, set the boundaries for your child. You can manage their screen time, find out the installed applications, block addictive applications, locate them on real time or set a Geo-fence around them. You can also access their SMS messages, phone calls and view their contacts as well as calling or messaging these contacts.
+ **Nexuscare** is a free and open source and is made for parents whose children are spending a lot of time on their smart phones or tablets. KidSafe allows you to control your children screen time or activity, set the boundaries for your child. You can manage their screen time, find out the installed applications, block addictive applications, locate them on real time or set a Geo-fence around them. You can also access their SMS messages, phone calls and view their contacts as well as calling or messaging these contacts.
 
 ## Built With<a id='built-with'>
 
-**KidSafe** is built with java and the android SDK and some third-party libraries including:
+**Nexuscare** is built with java and the android SDK and some third-party libraries including:
 
  1. Firebase Core
  2. Firebase Auth
@@ -81,16 +81,16 @@
 
 ## Download<a id='download'></a>
 
-All these features and KidSafe is only 5.3 MB! You can directly download KidSafe from <a href="https://github.com/xMansour/KidSafe/releases/download/V1.1/KidSafe_release_v1.1.apk">here</a>
+All these features and KidSafe is only 7.5 MB! You can directly download KidSafe from <a href="https://github.com/xMansour/KidSafe/releases/download/V1.1/KidSafe_release_v1.1.apk">here</a>
 	
 ## Documentation <a id='documentation'></a>
   
 [![view - Documentation](https://img.shields.io/badge/view-Documentation-blue?style=for-the-badge)](https://github.com/xMansour/KidSafe/tree/master/reports) 
                                                      
                                                      
-## License <a id='license'></a> Released under [MIT](/LICENSE) by [@xMansour](https://github.com/xMansour).
+## License <a id='license'></a> Released under [MIT](/LICENSE) by [@schawil](https://github.com/schawil).
   
-## Contact me at <a id='contact'></a> MElsayedMansour96@gmail.com.
+## Contact me at <a id='contact'></a> schawiloumar7@gmail.com.
 
 
 
